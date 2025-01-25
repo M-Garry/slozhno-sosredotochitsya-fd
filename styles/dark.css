@@ -1,6 +1,6 @@
 
 
-.page.theme_dark {
+.theme_dark {
   --background-color: #000028;
   --background-image: image-set( url('../images/cover-image-dark.png') type('image/png'));
   --background: var(--background-color) var(--background-image) no-repeat center / cover;
