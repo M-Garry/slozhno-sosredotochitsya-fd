@@ -19,7 +19,6 @@ body {
   font-size: var(--mobile-font-size);
   font-style: var(--mobile-fontstyle);
   line-height: var(--mobile-line-height);
-  background: var(--background);
   background-color: var(--background-color);
   background-attachment: fixed ;
   min-inline-size: 375px;
