@@ -4,9 +4,24 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  block-size: 100%;
 }
 
 body {
+  background: var(--background);
+  font-family: var(--mobile-font-family);
+  font-weight: var(--mobile-font-weight-normal);
+  font-size: var(--mobile-font-size);
+  font-style: var(--mobile-fontstyle);
+  line-height: var(--mobile-line-height);
+  background: var(--background);
+  background-color: var(--background-color);
+  background-attachment: fixed ;
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
@@ -19,12 +34,10 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  font-size: 1em;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -39,4 +52,5 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  
 }
