@@ -4,16 +4,15 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   inline-size: 100%;
 }
- /* HEADER*/
+/* HEADER*/
 .header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr min-content 1fr;
-    align-items: center;
-    padding: var(--mobile-padding);
-    block-size: 100vh;
-    min-block-size: var(--min-block-size);
-
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content 1fr;
+  align-items: center;
+  padding: var(--mobile-padding);
+  block-size: 100vh;
+  min-block-size: var(--min-block-size);
 }
 
 .decorated-zone {
@@ -21,7 +20,7 @@
 }
 
 .decorated-zone::before {
-  content: '';
+  content: "";
   position: absolute;
   top: var(--mobile-padding);
   right: var(--mobile-padding);
@@ -29,13 +28,12 @@
   height: 100%;
   border-inline-end: 1px solid var(--accent-color);
   border-block-start: 1px solid var(--accent-color);
-  inline-size: 1.40em;
-  block-size: 1.40em;
+  inline-size: 1.4em;
+  block-size: 1.4em;
 }
 
-
 .decorated-zone::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: var(--mobile-padding);
   left: var(--mobile-padding);
@@ -43,8 +41,8 @@
   height: 100%;
   border-inline-start: 1px solid var(--accent-color);
   border-block-end: 1px solid var(--accent-color);
-  inline-size: 1.40em;
-  block-size: 1.40em;
+  inline-size: 1.4em;
+  block-size: 1.4em;
 }
 
 .rec {
@@ -52,12 +50,11 @@
   top: var(--mobile-padding);
   right: calc(var(--mobile-padding) + 29px);
   color: var(--accent-color);
-  font-family:var(--mobile-font-family);
-  font-weight: var( --mobile-font-weight-normal);
+  font-family: var(--mobile-font-family);
+  font-weight: var(--mobile-font-weight-normal);
   font-size: var(--mobile-font-size);
   text-transform: uppercase;
   text-shadow: var(--accent-color);
-
 }
 
 .rec::before {
@@ -66,7 +63,7 @@
   top: 8px;
   right: -20px;
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px  var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
   background: var(--accent-color);
   inline-size: 0.4em;
   block-size: 0.4em;
@@ -74,7 +71,7 @@
 
 .header__theme-menu {
   justify-self: flex-end;
-  margin-inline-end: 2px; 
+  margin-inline-end: 2px;
 }
 
 .header__theme-menu-list {
@@ -83,29 +80,28 @@
   gap: var(--mobile-padding);
 }
 
-.header__theme-menu-button{
+.header__theme-menu-button {
   border: none;
   padding: 1px 12px 5px;
   color: var(--button-color);
   line-height: 1em;
-  text-transform:lowercase;
+  text-transform: lowercase;
   background: transparent;
   cursor: pointer;
 }
 
-.header__theme-menu-button_active{
+.header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
 }
-
 
 .header__theme-menu-button:hover {
   outline: 0.05em solid rgba(255, 0, 112, 0.5);
 }
 
 .header__title {
-    margin-block-start: 2px;
-    text-shadow: 4px 4px 0 var(--accent-color);
-  }
+  margin-block-start: 2px;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
 
 .title-decor {
   color: var(--subtitle-color);
@@ -123,10 +119,10 @@
 }
 
 .header__subtitle {
-color:  var( --subtitle-color);
-font-weight: var(--mobile-font-weight-normal);
-line-height: var(--mobile-line-height);
-background-color: var(--accent-color);
+  color: var(--subtitle-color);
+  font-weight: var(--mobile-font-weight-normal);
+  line-height: var(--mobile-line-height);
+  background-color: var(--accent-color);
 }
 
 /* MAIN*/

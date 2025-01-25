@@ -20,25 +20,25 @@
   padding: 60px var(--desktop-padding) 65px;
 }
 
-.main__section_why {
+.main__section_first {
   column-gap: var(--mobile-padding);
 }
 
-.main__section_what .section-title {
+.main__section_second .section-title {
   max-inline-size: 15em;
 }
 
-.main__section_what .section-list {
+.main__section_second .section-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--desktop-padding);
 }
 
-.main__section_what .section-text {
+.main__section_second .section-text {
   padding-block-end: 0;
 }
 
-.main__section_how {
+.main__section_third {
   column-gap: var(--mobile-padding);
 }
 
