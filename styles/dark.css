@@ -16,6 +16,23 @@
   transition: all 1s ease;
 }
 
-.theme_dark .rec {
+.theme-dark .rec {
   display: block;
+}
+
+:root.theme-dark {
+    --background-color: #000028;
+    --background-image: image-set( url('../images/cover-image-dark.png') type('image/png'));
+    --background: var(--background-color) var(--background-image) no-repeat center / cover;
+    --title-color: #DB00FF;
+    --accent-color: #FF0070;
+    --accent-color-rgb: 255, 0, 112;
+    --text-color: #F1B2CE;
+    --decor-color: #FF0070;
+    --button-color: #FF0070;
+    --button-color-rgb: 255, 0, 112;
+    --subtitle-color: #000028;
+    --section-title-color: #FF0070;
+    transition: all 1s ease;
+  
 }
