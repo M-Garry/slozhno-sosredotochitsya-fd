@@ -20,25 +20,25 @@
   padding: 60px var(--desktop-padding) 65px;
 }
 
-.main__section_first {
+.main__section_why {
   column-gap: var(--mobile-padding);
 }
 
-.main__section_second .section-title {
+.main__section_causes .section-title {
   max-inline-size: 15em;
 }
 
-.main__section_second .section-list {
+.main__section_causes .section-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--desktop-padding);
 }
 
-.main__section_second .section-text {
+.main__section_causes .section-text {
   padding-block-end: 0;
 }
 
-.main__section_third {
+.main__section_advices {
   column-gap: var(--mobile-padding);
 }
 

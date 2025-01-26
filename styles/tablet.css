@@ -40,26 +40,26 @@
   padding: 60px var(--desktop-padding) 64px;
 }
 
-.main__section_first {
+.main__section_why {
   grid-template-columns: 1fr 2fr;
   row-gap: 0;
   column-gap: var(--desktop-padding);
 }
 
-.main__section_first .section-title {
+.main__section_why .section-title {
   grid-row: span 2;
 }
 
-.main__section_second .section-title {
+.main__section_causes .section-title {
   max-inline-size: min-content;
 }
 
-.main__section_third {
+.main__section_advices {
   grid-template-columns: 1fr 2fr;
   gap: var(--desktop-padding);
 }
 
-.main__section_third .section-title {
+.main__section_advices .section-title {
   grid-row: span 2;
 }
 
