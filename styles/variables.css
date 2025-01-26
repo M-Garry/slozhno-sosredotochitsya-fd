@@ -35,7 +35,7 @@
   --light-border-color: rgba(50, 49, 45, 0.4);
   --header-corner-color: #353430;
   --border-active-button-color:var(--accent-color);
-  --border-hover-button-color:rgba(255, 0, 112, 0.5);
+  --border-hover-button-color:#FF0070;
 }
 
 

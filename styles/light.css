@@ -16,14 +16,13 @@
   --section-title-color: #353430;
   --header-corner-color: #353430;
   --border-active-button-color: #353430;
-  --border-hover-button-color: #32312d66;
+  --border-hover-button-color: 53, 52, 48;
 }
 
 .theme-light .rec {
   display: none;
 }
 
-/* .theme-auto  */
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #fff1f7;
@@ -43,7 +42,7 @@
     --section-title-color: #353430;
     --header-corner-color: #353430;
     --border-active-button-color: #353430;
-    --border-hover-button-color: #32312d66;
+    --border-hover-button-color: 53, 52, 48;
   }
 
   .rec {
