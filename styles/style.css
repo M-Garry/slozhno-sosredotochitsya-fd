@@ -92,7 +92,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 0.056em solid var(--border-active-button-color);
+  border: 0.056em solid var(--button-color);
   
 }
 

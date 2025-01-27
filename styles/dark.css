@@ -16,6 +16,7 @@
   --subtitle-color: #000028;
   --section-title-color: #ff0070;
   --header-corner-color: var(--accent-color);
+  --border-hover-button-color: 255, 0, 112;
 }
 
 .theme-dark .rec {
@@ -39,4 +40,5 @@
   --subtitle-color: #000028;
   --section-title-color: #ff0070;
   --header-corner-color: var(--accent-color);
+  --border-hover-button-color: 255, 0, 112;
 }
